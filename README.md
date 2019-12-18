@@ -2,8 +2,6 @@
 
 Sorting Tool.  Python/Flask and Javascript (d3).  Based on work from Mike Bostock (https://bost.ocks.org/mike/) and Rob Schmuecker (http://bl.ocks.org/robschmuecker/7880033).  Designed originally for the Unified Astronomy Thesuarus (http://astrothesaurus.org/), but can be used for a variety of projects.
 
-Main repository: https://github.com/katieefrey/UAT-Scripts/tree/master/UAT%20Sorting%20Tool
-
 ## Adding sections/branches
 
 Simply add a JSON file to the static/topconcepts folder to add a new branch/section to the sorting tool.
