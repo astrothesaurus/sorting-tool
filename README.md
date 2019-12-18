@@ -54,7 +54,6 @@ set FLASK_DEBUG=1
 python -m flask run
 
 ### To Do:
-- download saved json option
 - general look and feel
  - make feedback form smaller, or move it somewhere else on the screen?
  - make notes/instructions accessible while looking at the dendrogram too
