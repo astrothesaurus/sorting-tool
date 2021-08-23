@@ -38,6 +38,7 @@ host = line[8].replace("host = ","")
 port = line[9].replace("port = ","")
 username = line[10].replace("username = ","")
 password = line[11].replace("password = ","")
+selection =  line[12].replace("selection = ","")
 
 app = Flask(__name__, static_folder='static', static_url_path='')
 
@@ -59,7 +60,7 @@ def sortingpage():
 
     filelist.sort()
 
-    return render_template('sorting.html', filelist=filelist, shortname=shortname, longname=longname,logo=logo, version=version, savefile=savefile, meta=meta, url=url)
+    return render_template('sorting.html', filelist=filelist, shortname=shortname, longname=longname,logo=logo, version=version, savefile=savefile, meta=meta, url=url, selection=selection)
 
 
 @app.route('/sort/')

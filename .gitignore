@@ -2,3 +2,7 @@
 
 /static/setup.txt
 *.pyc
+static/setup-meta*
+static/setup-uat*
+passenger_wsgi.py
+sortingtool-py3.py

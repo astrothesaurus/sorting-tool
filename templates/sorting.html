@@ -54,7 +54,7 @@
                     <img width="300px" src="{{ url_for('static', filename='img/') }}{{logo}}" /><br /><a href="{{url}}">return home</a><br/><br />
                 {% endif %}
 
-                Choose a branch of the {{shortname}}{% if version == "" %}{% else %} (v{{version}}){% endif %}:<BR />
+                {{selection}}{% if version == "" %}{% else %} (v{{version}}){% endif %}:<BR />
                 <select id="opts">
                     <option value="blank" selected="selected" disabled="disabled"> </option>
                     {% for x in filelist %}
