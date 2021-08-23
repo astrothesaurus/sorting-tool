@@ -1,3 +1,4 @@
+// code by Sarah Weissman
 
 function difftree(tree1, tree2){
     var diffout = "";
